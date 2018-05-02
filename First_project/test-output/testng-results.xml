@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First test" duration-ms="84486" started-at="2018-05-02T14:35:33Z" finished-at="2018-05-02T14:36:58Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testing" duration-ms="84486" started-at="2018-05-02T14:35:33Z" finished-at="2018-05-02T14:36:58Z">
+      <class name="com.online.project.Test2">
+        <test-method status="PASS" signature="testCase(java.lang.String)[pri:0, instance:com.online.project.Test2@48140564]" name="testCase" duration-ms="84459" started-at="2018-05-02T20:05:33Z" finished-at="2018-05-02T20:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- com.online.project.Test2 -->
+    </test> <!-- Smoke Testing -->
+    <test name="functional Testing" duration-ms="84478" started-at="2018-05-02T14:35:33Z" finished-at="2018-05-02T14:36:58Z">
+      <class name="com.online.project.Test1">
+        <test-method status="PASS" signature="testCase(java.lang.String)[pri:0, instance:com.online.project.Test1@1554909b]" name="testCase" duration-ms="84449" started-at="2018-05-02T20:05:33Z" finished-at="2018-05-02T20:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- com.online.project.Test1 -->
+      <class name="com.online.project.Test2">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online.project.Test2@48140564]" name="tearDown" is-config="true" duration-ms="7142" started-at="2018-05-02T20:07:00Z" finished-at="2018-05-02T20:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online.project.Test1@1554909b]" name="tearDown" is-config="true" duration-ms="6569" started-at="2018-05-02T20:07:07Z" finished-at="2018-05-02T20:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.online.project.Test2 -->
+    </test> <!-- functional Testing -->
+  </suite> <!-- First test -->
+</testng-results>

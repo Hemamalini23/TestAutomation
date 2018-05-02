@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [First test]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Smoke Testing(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.online.project.Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.online.project.Test2 -->
+    </classes>
+  </test> <!-- Smoke Testing(failed) -->
+  <test name="functional Testing(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.online.project.Test2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.online.project.Test2 -->
+      <class name="com.online.project.Test1">
+        <methods>
+          <include name="testCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.online.project.Test1 -->
+    </classes>
+  </test> <!-- functional Testing(failed) -->
+</suite> <!-- Failed suite [First test] -->
