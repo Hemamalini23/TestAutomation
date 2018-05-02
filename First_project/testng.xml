@@ -7,7 +7,7 @@
 			<class name="com.online.project.Test2" />
 		</classes>
 	</test> <!-- Default test(failed) -->
-	<test name="functional Testing">
+	<test name="functional_Testing">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.online.project.Test1">

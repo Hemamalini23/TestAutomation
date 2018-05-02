@@ -48,7 +48,10 @@ public class Test1 {
 		Utils.click(driver, ".//*[contains(text(),'SIGN-OFF')]");
 		
 	}
-	
+	/*
+	 * Browser quit
+	 * 
+	 */
 	@AfterSuite
 	public void tearDown() throws Exception{
 		Thread.sleep(6000);
