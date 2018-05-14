@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="First test" parallel="tests">
-	<test name="Smoke Testing">
+	<test name="Smoke_Testing">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.online.project.Test2" />
